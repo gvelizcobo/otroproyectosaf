@@ -252,5 +252,255 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DEPARTAMENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DPTO_MOVIMIENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.MOVIMIENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONA_DPTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PROYECTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.buscarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.consultarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validar_cedula1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validarcedulaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DEPARTAMENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DPTO_MOVIMIENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.MOVIMIENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONA_DPTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PROYECTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.buscarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.consultarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validar_cedula1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validarcedulaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DEPARTAMENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.DPTO_MOVIMIENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.MOVIMIENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONA_DPTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PERSONASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.PROYECTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.buscarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.consultarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validar_cedula1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2.validarcedulaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.DEPARTAMENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.DPTO_MOVIMIENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.MOVIMIENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.PERSONA_DPTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.PERSONASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.PROYECTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.buscarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.consultarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.validar_cedula1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.validarcedulaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(UNIDOSGENESIS.UNIDOSDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(UNIDOSGENESIS.UNIDOSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(UNIDOSGENESIS.UNIDOSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.UpdateAll(UNIDOSGENESIS.UNIDOSDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

@@ -1,6 +1,9 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Ingresos
+    Private txtmovimien As Object
+    Private txtmovimientoi As Object
+
     Private Sub btnagregari_Click(sender As Object, e As EventArgs) Handles btnagregari.Click
         My.Forms.Ingresos.Close()
         My.Forms.Agregar_Ingresos.Show()
@@ -19,22 +22,37 @@ Public Class Ingresos
     Private Sub btneliminari_Click(sender As Object, e As EventArgs) Handles btneliminari.Click
         Dim SqlConn As New SqlConnection(My.Settings.UNIDOSConnectionString)
         SqlConn.Open()
-        Dim IngresosTableAdapter As New SqlDataAdapter
-        If MessageBox.Show("¿Desea eliminar el registro seleccionado?", "Eliminar", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) = Windows.Forms.DialogResult.OK Then
-            eliminarfilas(dgvingresos.CurrentRow.Cells(0).Value)
+        Dim sqlcmd As New SqlCommand
+
+        Dim reader As SqlDataReader
+        reader = sqlcmd.ExecuteReader
+
+        Dim r As Boolean = reader.HasRows()
+        If r = True Then
+            sqlcmd.Connection = SqlConn
+            sqlcmd.CommandType = CommandType.StoredProcedure
+            sqlcmd.CommandText = "eliminarmovimiento"
+            sqlcmd.Parameters.Add(New SqlParameter("@movimientoid", SqlDbType.VarChar, 50)).Value = dgvingresos.Text
+
+            Dim readerr As SqlDataReader = sqlcmd.ExecuteReader()
         End If
-        IngresosTableAdapter.Fill(Me.IngresosDataSet.ingresos)
+        If MessageBox.Show("¿Desea eliminar el registro seleccionado?", "Eliminar", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) = Windows.Forms.DialogResult.OK Then
+
+            End If
     End Sub
 
-    Private Function IngresosDataSet() As Object
-        Throw New NotImplementedException()
-    End Function
-    Private Sub eliminarfilas(value As Object)
-        Dim laConnection As New SqlConnection
-        laConnection.Open()
-        Try
 
-        Catch ex As Exception
+
+    Try
+            laConnection.Open()
+            Dim objetolector As SqlDataReader = elcmd.ExecuteReader()
+            MessageBox.Show("Registro eliminado exitosamente", "Completado", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            objetolector.Close()
+
+        Catch ex As SqlException
+            MessageBox.Show(ex.Message)
+        Finally
+            laConnection.Close()
 
         End Try
     End Sub

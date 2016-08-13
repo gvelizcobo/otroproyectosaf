@@ -229,6 +229,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UNIDOSDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="UNIDOSDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UNIDOSDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.Designer.vb">
       <DependentUpon>Ventas.vb</DependentUpon>
     </Compile>
@@ -339,6 +344,17 @@
     </None>
     <None Include="UNIDOSDataSet1.xss">
       <DependentUpon>UNIDOSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UNIDOSDataSet2.xsc">
+      <DependentUpon>UNIDOSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="UNIDOSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UNIDOSDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UNIDOSDataSet2.xss">
+      <DependentUpon>UNIDOSDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
