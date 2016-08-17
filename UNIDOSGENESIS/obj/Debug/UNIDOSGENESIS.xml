@@ -47,12 +47,47 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.buscarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.consultarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validar_cedula1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validarcedulaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:UNIDOSGENESIS.UNIDOSDataSet.PERSONASDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTODataTable">
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientos1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.VerificartransaccionDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -77,12 +112,47 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.buscarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.consultarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validar_cedula1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validarcedulaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
 <member name="T:UNIDOSGENESIS.UNIDOSDataSet.PERSONASRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTORow">
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientos1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.VerificartransaccionRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -107,12 +177,47 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.buscarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.consultarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validar_cedula1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.validarcedulaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:UNIDOSGENESIS.UNIDOSDataSet.PERSONASRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:UNIDOSGENESIS.UNIDOSDataSet.PROYECTORowChangeEvent">
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.mostrar_movimientos1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet.VerificartransaccionRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
@@ -137,12 +242,52 @@ Represents the connection and commands used to retrieve and save data.
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.PROYECTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.buscarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.consultarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.validar_cedula1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.validarcedulaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
 <member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.PERSONASTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.PROYECTOTableAdapter">
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.mostrar_movimientosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.mostrar_movimientos1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.VerificartransaccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSetTableAdapters.QueriesTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
@@ -498,6 +643,276 @@ Update Order Option
 </summary>
 </member>
 <member name="T:UNIDOSGENESIS.UNIDOSDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.MOVIMIENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DEPARTAMENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DPTO_MOVIMIENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONA_DPTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PROYECTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.buscarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.consultarusuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.InsertQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validar_cedula1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validarcedulaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.MOVIMIENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DEPARTAMENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DPTO_MOVIMIENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONA_DPTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PROYECTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.buscarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.consultarusuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.InsertQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validar_cedula1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validarcedulaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.MOVIMIENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DEPARTAMENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.DPTO_MOVIMIENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONA_DPTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PERSONASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.PROYECTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.buscarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.consultarusuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.InsertQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validar_cedula1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3.validarcedulaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.MOVIMIENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.DEPARTAMENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.DPTO_MOVIMIENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.PERSONA_DPTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.PERSONASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.PROYECTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.buscarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.consultarusuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.InsertQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.validar_cedula1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.validarcedulaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(UNIDOSGENESIS.UNIDOSDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(UNIDOSGENESIS.UNIDOSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(UNIDOSGENESIS.UNIDOSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.UpdateAll(UNIDOSGENESIS.UNIDOSDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:UNIDOSGENESIS.UNIDOSDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
 <summary>
 Used to sort self-referenced table's rows
 </summary>

@@ -11,7 +11,7 @@
 
     Private Sub btnmovimientos_Click(sender As Object, e As EventArgs) Handles btnmovimientos.Click
         My.Forms.menua.Close()
-        My.Forms.Menu_Movimientos.Show()
+        My.Forms.Movimientos.Show()
     End Sub
 
     Private Sub btnproyectos_Click(sender As Object, e As EventArgs) Handles btnproyectos.Click

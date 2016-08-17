@@ -11,7 +11,7 @@ Public Class Eliminar_Personas
         sqlcmd.Connection = sqlConn
         sqlcmd.CommandType = CommandType.StoredProcedure
         sqlcmd.CommandText = "validar_cedula1"
-        sqlcmd.Parameters.Add(New SqlParameter("@cedula", SqlDbType.NChar, 50)).Value = txtced.Text
+        sqlcmd.Parameters.Add(New SqlParameter("@cedula", SqlDbType.VarChar, 50)).Value = txtced.Text
 
         Dim reader As SqlDataReader
         reader = sqlcmd.ExecuteReader
@@ -25,7 +25,7 @@ Public Class Eliminar_Personas
             sqlcmdd.Connection = connexion
             sqlcmdd.CommandType = CommandType.StoredProcedure
             sqlcmdd.CommandText = "eliminarusuario"
-            sqlcmdd.Parameters.Add(New SqlParameter("@cedula", SqlDbType.NChar, 50)).Value = txtced.Text
+            sqlcmdd.Parameters.Add(New SqlParameter("@cedula", SqlDbType.VarChar, 50)).Value = txtced.Text
 
             Dim readerr As SqlDataReader = sqlcmd.ExecuteReader()
 
