@@ -105,7 +105,7 @@ Public Class Movimientos
     End Sub
 
     Private Sub btnmeliminar_Click(sender As Object, e As EventArgs) Handles btnmeliminar.Click
-        Dim Results As New 
+
     End Sub
 
     Private Sub btnmbuscar_Click(sender As Object, e As EventArgs) Handles btnmbuscar.Click
